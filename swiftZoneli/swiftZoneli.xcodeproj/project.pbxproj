@@ -13,6 +13,8 @@
 		E1652FA71B2EDA8200FF17FF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1652FA61B2EDA8200FF17FF /* Images.xcassets */; };
 		E1652FAA1B2EDA8200FF17FF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1652FA81B2EDA8200FF17FF /* LaunchScreen.xib */; };
 		E1652FB61B2EDA8200FF17FF /* swiftZoneliTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1652FB51B2EDA8200FF17FF /* swiftZoneliTests.swift */; };
+		E16E05501B3269D500083AB1 /* BubbleSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16E054F1B3269D500083AB1 /* BubbleSort.swift */; };
+		E16E05521B326A4C00083AB1 /* QuickSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16E05511B326A4C00083AB1 /* QuickSort.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		E1652FAF1B2EDA8200FF17FF /* swiftZoneliTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swiftZoneliTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1652FB41B2EDA8200FF17FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E1652FB51B2EDA8200FF17FF /* swiftZoneliTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftZoneliTests.swift; sourceTree = "<group>"; };
+		E16E054F1B3269D500083AB1 /* BubbleSort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BubbleSort.swift; sourceTree = "<group>"; };
+		E16E05511B326A4C00083AB1 /* QuickSort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuickSort.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,8 @@
 			children = (
 				E1652F9F1B2EDA8200FF17FF /* AppDelegate.swift */,
 				E1652FA11B2EDA8200FF17FF /* ViewController.swift */,
+				E16E054F1B3269D500083AB1 /* BubbleSort.swift */,
+				E16E05511B326A4C00083AB1 /* QuickSort.swift */,
 				E1652FA31B2EDA8200FF17FF /* Main.storyboard */,
 				E1652FA61B2EDA8200FF17FF /* Images.xcassets */,
 				E1652FA81B2EDA8200FF17FF /* LaunchScreen.xib */,
@@ -214,6 +220,8 @@
 			files = (
 				E1652FA21B2EDA8200FF17FF /* ViewController.swift in Sources */,
 				E1652FA01B2EDA8200FF17FF /* AppDelegate.swift in Sources */,
+				E16E05501B3269D500083AB1 /* BubbleSort.swift in Sources */,
+				E16E05521B326A4C00083AB1 /* QuickSort.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +417,7 @@
 				E1652FBB1B2EDA8200FF17FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E1652FBC1B2EDA8200FF17FF /* Build configuration list for PBXNativeTarget "swiftZoneliTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +426,7 @@
 				E1652FBE1B2EDA8200FF17FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
