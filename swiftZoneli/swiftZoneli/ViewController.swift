@@ -12,13 +12,14 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        
+        var list = [1,3,2,4,6,2,1]
+        self.testBubble(list)
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-    func testBubble() {
-    
+    func testBubble(array:[Int]) {
+        var tempsort = BubbleSort()
+        var sortArray = tempsort.bubbleSort(array)
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

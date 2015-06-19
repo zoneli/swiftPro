@@ -10,9 +10,10 @@ import Foundation
 class QuickSort{
     
     func quickSort(array:[Int])->([Int]) {
+        var strarr:[Int] = array;
         
-        var strarr:[Int] = [1,2];
-            
+        
+        
         return strarr;
     }
 }
