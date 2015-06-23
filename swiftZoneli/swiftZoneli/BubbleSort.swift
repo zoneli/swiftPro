@@ -12,7 +12,7 @@ class BubbleSort {
     func bubbleSort(array:[Int])->([Int]) {
         var strarr:[Int] = array
         for var i=0; i<strarr.count; i++ {
-            for var j:Int = 0; j<strarr.count-i-1; j++ {
+            for var j = 0; j<strarr.count-i-1; j++ {
             if (strarr[j+1] < strarr[j]){
                     var temp = strarr[j]
                     strarr[j] = strarr[j+1]
@@ -20,7 +20,7 @@ class BubbleSort {
                 }
             }
         }
-        println("bubblesort=\(strarr)")
+        println("bubbleSort=\(strarr)")
         return strarr;
     }
 }
