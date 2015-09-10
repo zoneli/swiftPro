@@ -8,6 +8,7 @@
 
 import Foundation
 class QuickSort{
+    
     func quickSort(inout array:[Int],inout leftIndex:Int,inout rightIndex:Int) {
         var left = 0;
         var right = array.count-1;
