@@ -11,7 +11,9 @@ import UIKit
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
+        //注释掉
         super.viewDidLoad()
+        //必须调用父类方法
         var list = [1,3,2,4,6,2,1]
         println("arrayBeforeSort\(list)")
         self.testBubble(list)

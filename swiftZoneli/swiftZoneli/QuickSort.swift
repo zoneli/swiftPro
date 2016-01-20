@@ -4,11 +4,10 @@
 //
 //  Created by lyz1 on 15/6/18.
 //  Copyright (c) 2015年 lyz1. All rights reserved.
-//
+// push 到dev失败
 
 import Foundation
 class QuickSort{
-    
     
     func quickSort(inout array:[Int],inout leftIndex:Int,inout rightIndex:Int) {
         var left = 0;
